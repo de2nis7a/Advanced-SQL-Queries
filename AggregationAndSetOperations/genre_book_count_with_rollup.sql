@@ -1,4 +1,4 @@
--- TASK: List all genres and the count the number of the books in each genre. Sort them in alphabetical order. 
+-- TASK: List all genres and the number of the books in each genre. Sort them in alphabetical order. 
 SELECT 
     g.genre_name,
     COUNT(b.book_title)

@@ -1,4 +1,4 @@
--- TASK: List the full name of each author in one column, The total number of books wrote, and what is the difference between their count and the highest number of books written by any author?
+-- TASK: Full name of each author in one column, The total number of books wrote, and what is the difference between their count and the highest number of books written by any author?
 SELECT
     CONCAT_WS(' ', a.auth_name, a.auth_mid_name, a.auth_last_name) AS "NAME",
     COUNT(ba.book_id) AS "Book Count",

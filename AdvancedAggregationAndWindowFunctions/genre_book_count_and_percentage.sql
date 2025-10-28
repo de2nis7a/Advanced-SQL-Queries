@@ -1,4 +1,4 @@
--- TASK: Count all the books for each genre, and What is the percentage of books for each genre?
+-- TASK: All the books for each genre, and the percentage of books for each genre?
 SELECT 
     g.genre_name,
     COUNT(b.book_id) AS "Book Count",
