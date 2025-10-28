@@ -23,13 +23,13 @@ This rich, relational context allows for the exploration of realistic analytical
 
 To facilitate navigation, the queries are organized into folders based on the fundamental SQL concepts they demonstrate:
 
-* **/Joins**: Examples of queries combining data from multiple tables using various `JOIN` types.
-* **/DataFilteringAndSelection**: Queries focused on filtering data using `WHERE`, `LIKE`, `IN`, `BETWEEN`, and logical operators.
-* **/AggregationAndSetOperations**: Demonstrations of aggregate functions (`GROUP BY`, `COUNT`, `AVG`) and set operations (`UNION`, `INTERSECT`).
-* **/OuterJoinsAndNullHandling**: Examples of `LEFT JOIN` and `RIGHT JOIN` to find missing data and handle `NULL` values using `COALESCE` and `IS NULL`.
-* **/AdvancedAggregationAndWindowFunctions**: Advanced queries using window functions (`OVER()`, `PARTITION BY`) to calculate percentages of total, differences, and rankings.
-* **/Subqueries**: Complex scenarios solved using subqueries in the `WHERE`, `HAVING`, `FROM` (derived tables), and `JOIN` clauses.
-* **/ViewsAndIndexing**: Code for creating `VIEW`s (virtual tables) to simplify future queries, alongside an exercise in performance analysis (`EXPLAIN ANALYSE`) and index creation.
+* [Joins](./Joins) : Examples of queries combining data from multiple tables using various `JOIN` types.
+* [DataFilteringAndSelection](./DataFilteringAndSelection) : Queries focused on filtering data using `WHERE`, `LIKE`, `IN`, `BETWEEN`, and logical operators.
+* [AggregationAndSetOperations](./AggregationAndSetOperations) : Demonstrations of aggregate functions (`GROUP BY`, `COUNT`, `AVG`) and set operations (`UNION`, `INTERSECT`).
+* [OuterJoinsAndNullHandling](./OuterJoinsAndNullHandling) : Examples of `LEFT JOIN` and `RIGHT JOIN` to find missing data and handle `NULL` values using `COALESCE` and `IS NULL`.
+* [AdvancedAggregationAndWindowFunctions](./AdvancedAggregationAndWindowFunctions) : Advanced queries using window functions (`OVER()`, `PARTITION BY`) to calculate percentages of total, differences, and rankings.
+* [Subqueries](./Subqueries) : Complex scenarios solved using subqueries in the `WHERE`, `HAVING`, `FROM` (derived tables), and `JOIN` clauses.
+* [ViewsAndIndexing](./ViewsAndIndexing) : Code for creating `VIEW`s (virtual tables) to simplify future queries, alongside an exercise in performance analysis (`EXPLAIN ANALYSE`) and index creation.
 
 ## Skills and Concepts Demonstrated
 
