@@ -1,46 +1,67 @@
-# Advanced-SQL-Queries
-A technical portfolio showcasing advanced SQL (PostgreSQL) skills for complex data analysis and manipulation.
+# 🧠 Advanced SQL Query Portfolio (PostgreSQL)
 
-# Advanced SQL Query Portfolio (PostgreSQL)
+A technical collection of advanced SQL queries showcasing deep understanding of relational databases, data analysis, and performance optimization in PostgreSQL.
 
-Welcome to my SQL portfolio! This repository is a collection of over 50 complex SQL queries written in PostgreSQL, designed to demonstrate my proficiency in data manipulation, analysis, and database management.
+---
 
-The primary objective of this project is to showcase the ability to translate complex business requirements into efficient, readable, and accurate database queries.
+## 🎯 Overview
 
-## Database Context
+This repository features over **50 advanced SQL queries**, each designed to demonstrate real-world data analysis and manipulation skills.  
+The goal is to show how complex business questions can be translated into efficient, readable, and accurate SQL statements.
 
-The queries in this portfolio are written against a complex relational database simulating a **university library system**.
+All examples are built for a simulated **University Library Management System** — a realistic, relational environment including:
 
-This test environment (which is private and not published here) models real-world, many-to-many relationships and includes entities such as:
-* `Students` and `Courses`
-* `Books`, `Authors`, and `Publishers`
-* `Genres` and `Languages`
-* `Loans`, `Librarians`, and `Inventory` (tracking individual book copies)
+- `Students`, `Courses`
+- `Books`, `Authors`, `Publishers`
+- `Genres`, `Languages`
+- `Loans`, `Librarians`, and `Inventory`
 
-This rich, relational context allows for the exploration of realistic analytical scenarios.
+This structure provides a robust testbed for exploring multi-table joins, aggregations, and analytical queries.
 
-## Repository Structure
+---
 
-To facilitate navigation, the queries are organized into folders based on the fundamental SQL concepts they demonstrate:
+## 🗂️ Repository Structure
 
-* [Joins](./Joins) : Examples of queries combining data from multiple tables using various `JOIN` types.
-* [DataFilteringAndSelection](./DataFilteringAndSelection) : Queries focused on filtering data using `WHERE`, `LIKE`, `IN`, `BETWEEN`, and logical operators.
-* [AggregationAndSetOperations](./AggregationAndSetOperations) : Demonstrations of aggregate functions (`GROUP BY`, `COUNT`, `AVG`) and set operations (`UNION`, `INTERSECT`).
-* [OuterJoinsAndNullHandling](./OuterJoinsAndNullHandling) : Examples of `LEFT JOIN` and `RIGHT JOIN` to find missing data and handle `NULL` values using `COALESCE` and `IS NULL`.
-* [AdvancedAggregationAndWindowFunctions](./AdvancedAggregationAndWindowFunctions) : Advanced queries using window functions (`OVER()`, `PARTITION BY`) to calculate percentages of total, differences, and rankings.
-* [Subqueries](./Subqueries) : Complex scenarios solved using subqueries in the `WHERE`, `HAVING`, `FROM` (derived tables), and `JOIN` clauses.
-* [ViewsAndIndexing](./ViewsAndIndexing) : Code for creating `VIEW`s (virtual tables) to simplify future queries, alongside an exercise in performance analysis (`EXPLAIN ANALYSE`) and index creation.
+Queries are organized by technical theme for clarity and progression:
 
-## Skills and Concepts Demonstrated
+- **[Joins](./Joins)** → Combining multiple tables with `INNER`, `LEFT`, `RIGHT`, and `FULL JOIN`.
+- **[DataFilteringAndSelection](./DataFilteringAndSelection)** → Logical filtering using `WHERE`, `LIKE`, `IN`, and `BETWEEN`.
+- **[AggregationAndSetOperations](./AggregationAndSetOperations)** → Use of `GROUP BY`, `HAVING`, and set operations like `UNION` and `INTERSECT`.
+- **[OuterJoinsAndNullHandling](./OuterJoinsAndNullHandling)** → Managing incomplete data with `LEFT JOIN`, `COALESCE`, and `IS NULL`.
+- **[AdvancedAggregationAndWindowFunctions](./AdvancedAggregationAndWindowFunctions)** → Window functions (`OVER()`, `PARTITION BY`) for rankings, cumulative totals, and percentages.
+- **[Subqueries](./Subqueries)** → Correlated and non-correlated subqueries within `WHERE`, `HAVING`, and `JOIN` clauses.
+- **[ViewsAndIndexing](./ViewsAndIndexing)** → Creating reusable `VIEW`s and optimizing query performance with `CREATE INDEX` and `EXPLAIN ANALYZE`.
 
-This portfolio demonstrates practical, hands-on experience with:
+---
 
-* **Data Manipulation (DML):** `SELECT`, `FROM`, `WHERE`, `GROUP BY`, `HAVING`, `ORDER BY`
-* **Data Combination:** `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`
-* **Aggregate Functions:** `COUNT()`, `SUM()`, `AVG()`, `MIN()`, `MAX()`
-* **Advanced Analytics:** Window Functions (`OVER()`, `PARTITION BY`, `SUM() OVER()`)
-* **Subqueries:** Correlated and non-correlated subqueries (`IN`, `EXISTS`, `NOT IN`, `NOT EXISTS`)
-* **Set Operations:** `UNION`, `INTERSECT`
-* **Data Definition (DDL):** `CREATE VIEW`, `CREATE INDEX`
-* **Data Cleaning:** `COALESCE`, `NULLIF`, `CASE`
-* **Performance Tuning:** `EXPLAIN ANALYSE` and foundational indexing strategy
+## 🧩 Core Skills Demonstrated
+
+This project highlights advanced proficiency with SQL concepts including:
+
+### Data Manipulation (DML)
+`SELECT`, `WHERE`, `GROUP BY`, `HAVING`, `ORDER BY`
+
+### Data Combination
+`INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, `FULL JOIN`
+
+### Aggregate & Analytical Functions
+`COUNT()`, `SUM()`, `AVG()`, `RANK()`, and other `OVER()`-based calculations
+
+### Subqueries & Set Operations
+`IN`, `EXISTS`, `UNION`, `INTERSECT`, `NOT EXISTS`
+
+### Data Definition & Optimization
+`CREATE VIEW`, `CREATE INDEX`, and performance diagnostics with `EXPLAIN ANALYZE`
+
+### Data Cleaning & Validation
+`COALESCE`, `NULLIF`, `CASE`, and other integrity-oriented expressions
+
+---
+
+## 🧭 Purpose
+
+This portfolio demonstrates not only technical SQL fluency but also a strong analytical mindset — the ability to break down real-world problems into structured, efficient queries that reveal insights and drive decision-making.
+
+---
+
+📘 *All queries are written for PostgreSQL 15+, with a focus on clarity, performance, and maintainability.*
